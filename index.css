@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+
+
+h3 {
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+
+h2 {
+    font-family: 'CursedTimer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #F94F6D;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container-score {
+    background: #080001;
+    border-radius: 16px;
+    width: 155px;
+    height: 120px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.container-buttons {
+    margin: 20px;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 192px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    background: transparent;
+    border-radius: 5px;
+
+    left: 199px;
+    top: 280px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+.primary-button {
+    width: 200px;
+    border: 2px solid #9AABD8;
+    background: white;
+    border-radius: 50px;
+
+    font-family: 'Verdana';
+    font-size: 18px;
+    line-height: 155%;
+    text-align: center;
+    color: black;
+}
